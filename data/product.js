@@ -38,7 +38,7 @@ const products = [
     name: "Lamborghini Urus",
     image: "/img/lamborghiniUrus.webp",
     description:
-      "It's a lot more than just a hopped up Huracan as some internet comments will lead you to believe. The face, tail and even the sides are choc-a-bloc with sharp edges and creases and the production version is actually more aggressively styled than the concept.The interiors of the Urus are stunning to say the least with mix of Hexagons and Octagons jumping out at you. After climbing in and sitting down in this tall SUV you are greeted with a modern cockpit styled layout. This is further emphasized by the gear/drive mode console selector which is designed like the throttle of an aircraft. Even though when you break down the parts into bits you will find a lot borrowed from Audi's sedan range the Lambo cabin still manages to deliver the drama which starts from the moment when you reach for the start flip open the red cover and thumb the starter.",
+      "It's a lot more than just a hopped up Huracan as some internet comments will lead you to believe. The face, tail and even the sides are choc-a-bloc with sharp edges and creases and the production version is actually more aggressively styled than the concept.",
     brand: "Lamborghini",
     category: "Cars",
     price: 34300000,
