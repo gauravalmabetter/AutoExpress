@@ -310,16 +310,16 @@ const getWishlistProducts = asyncHandler(async (req, res) => {
 // @route   POST /api/social_auth/google
 // @access  Public
 const client = new OAuth2Client(
-  `${"981424184373-1ivhtg0lu380pv1khjf17hhclvnaejc2.apps.googleusercontent.com"}`
+  `${"987102424788-cil0cc63aj3frkam5gn77ijle5gavtl4.apps.googleusercontent.com"}`
 );
 const googleLogin = asyncHandler(async (req, res) => {
   const { tokenId } = req.body;
-
+ 
   client
     .verifyIdToken({
       idToken: tokenId,
       audience:
-      `${"981424184373-1ivhtg0lu380pv1khjf17hhclvnaejc2.apps.googleusercontent.com"}`,
+      `${"987102424788-cil0cc63aj3frkam5gn77ijle5gavtl4.apps.googleusercontent.com"}`,
     })
     .then((response) => {
       const {  email_verified, name, email } = response.payload;
