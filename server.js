@@ -20,7 +20,7 @@ ConnectDB();
 const app = express();
 const cloudinary = pkg;
 app.use(cors({
-  origin: '"https://autoexpree.onrender.com/google/callback'
+  origin: '"https://autoexpree.onrender.com/auth/google/callback'
 }));
 
 
