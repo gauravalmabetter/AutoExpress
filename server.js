@@ -13,13 +13,15 @@ import orderRoutes from "./routes/orderRoutes.js";
 import couponRoutes from "./routes/couponRoutes.js";
 import cartRoutes from "./routes/cartRoutes.js";
 import pkg from 'cloudinary'
-
+const cors = require('cors');
 dotenv.config();
 ConnectDB();
 
 const app = express();
 const cloudinary = pkg;
-
+app.use(cors({
+  origin: '"https://autoexpree.onrender.com/google/callback'
+}));
 
 
 // app.listen(5000, console.log("server"));
