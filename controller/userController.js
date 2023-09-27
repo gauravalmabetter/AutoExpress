@@ -428,8 +428,8 @@ const mailer = (email, otp) => {
   const contactEmail = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "gaurav.verma@almabetter.com",
-      pass: `${process.env.PASS}`,
+      user: "vermamonu185@gmail.com",
+      pass: `hjrcjldduykvhiwd`,
     },
   });
 
@@ -442,7 +442,7 @@ const mailer = (email, otp) => {
   });
 
   var mail = {
-    from: "reactjsdeveloper45@gmail.com",
+    from: "gaurav.verma@almabetter.com",
     to: email,
     subject: "One Time Password",
     html: `
@@ -499,7 +499,7 @@ const mailer = (email, otp) => {
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td align="center" class="esd-block-image" style="font-size: 0px;">
-                                                                                            <a target="_blank"><img class="adapt-img" src="https://demo.stripocdn.email/content/guids/videoImgGuid/images/char_pahiya2_FNa.png" alt style="display: block;" width="265"></a>
+                                                                                            <a target="_blank"><img class="adapt-img" src="https://cdn07.carsforsale.com/dealerlogos/1002733/LOGOae.76f43ca2.png" alt style="display: block;" width="265"></a>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -577,7 +577,7 @@ const mailer = (email, otp) => {
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td class="esd-block-text" esd-links-color="#666666" align="center">
-                                                                                            <p style="font-size: 14px;">Contact us: <a target="_blank" style="font-size: 14px; color: #666666;" href="tel:123456789">123456789</a> | <a target="_blank" href="mailto:reactjsdeveloper45@mail.com" style="font-size: 14px; color: #666666;">reactjsdeveloper45@gmail.com</a></p>
+                                                                                            <p style="font-size: 14px;">Contact us: <a target="_blank" style="font-size: 14px; color: #666666;" href="tel:7042269320">123456789</a> | <a target="_blank" href="mailto:reactjsdeveloper45@mail.com" style="font-size: 14px; color: #666666;">gaurav.verma@almabetter.com</a></p>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
